@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+[data-theme="default"] {
+    --font-size: 20px;
+    --background: #fff;
+    --accent: #1b2748;
+    --secondary: #d4c4aa;
+}
+
+
+.theme-bg {
+    background: var(--background);
+}
+
+.theme-text-accent {
+    color: var(--accent);
+}
+
+.theme-bg-accent {
+    background: var(--accent);
+}
+
+.theme-text-secondary {
+    color: var(--secondary);
+}
+
+.theme-bg-secondary {
+    background: var(--secondary);
+}
